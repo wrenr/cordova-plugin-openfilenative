@@ -246,6 +246,8 @@ public class OpenFileNative extends CordovaPlugin {
                 guessedFileName.contains(".mpeg") ||
                 guessedFileName.contains(".mpe") ||
                 guessedFileName.contains(".mp4") ||
+                guessedFileName.contains(".mov") ||
+                guessedFileName.contains(".m4v") ||
                 guessedFileName.contains(".avi") ||
                 guessedFileName.contains(".3gp") ||
                 guessedFileName.contains(".3gpp")  ||
